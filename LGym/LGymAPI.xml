@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LGym</name>
+    </assembly>
+    <members>
+        <member name="M:LGym.Controllers.MembersController.GetMembers">
+            <summary>
+            Get all members
+            </summary>
+            <returns>All Members</returns>
+        </member>
+        <member name="M:LGym.Controllers.MembersController.GetMember(System.Int32)">
+            <summary>
+            get members by id
+            </summary>
+            <param name="id">The id of the member</param>
+            <returns>A member with id</returns>
+        </member>
+        <member name="T:LGym.Migrations.initial">
+            <inheritdoc />
+        </member>
+        <member name="M:LGym.Migrations.initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LGym.Migrations.initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LGym.Migrations.initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:LGym.Migrations.dataseed">
+            <inheritdoc />
+        </member>
+        <member name="M:LGym.Migrations.dataseed.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LGym.Migrations.dataseed.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LGym.Migrations.dataseed.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:LGym.Models.Member">
+            <summary>
+            Member model
+            </summary>
+        </member>
+        <member name="P:LGym.Models.Member.MemberId">
+            <summary>
+            /the id of the e member
+            </summary>
+        </member>
+        <member name="P:LGym.Models.Member.FirstName">
+            <summary>
+            The name of the member
+            </summary>
+        </member>
+        <member name="P:LGym.Models.Member.LastName">
+            <summary>
+            The lastname of the member
+            </summary>
+        </member>
+        <member name="P:LGym.Models.Member.Email">
+            <summary>
+            Email of the member
+            </summary>
+        </member>
+        <member name="P:LGym.Models.Member.JoinDate">
+            <summary>
+            Join Date of member
+            </summary>
+        </member>
+    </members>
+</doc>

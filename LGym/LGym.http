@@ -1,0 +1,6 @@
+@LGym_HostAddress = http://localhost:5075
+
+GET {{LGym_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
