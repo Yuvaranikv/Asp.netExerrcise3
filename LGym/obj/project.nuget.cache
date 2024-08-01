@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vJ/u01fv16M=",
+  "dgSpecHash": "EeCeld2FwH4=",
   "success": true,
   "projectFilePath": "D:\\Users\\yuvarani\\source\\repos\\LGym\\LGym\\LGym.csproj",
   "expectedPackageFiles": [
+    "D:\\Users\\yuvarani\\.nuget\\packages\\asp.versioning.abstractions\\8.1.0\\asp.versioning.abstractions.8.1.0.nupkg.sha512",
+    "D:\\Users\\yuvarani\\.nuget\\packages\\asp.versioning.http\\8.1.0\\asp.versioning.http.8.1.0.nupkg.sha512",
+    "D:\\Users\\yuvarani\\.nuget\\packages\\asp.versioning.mvc\\8.1.0\\asp.versioning.mvc.8.1.0.nupkg.sha512",
+    "D:\\Users\\yuvarani\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\8.1.0\\asp.versioning.mvc.apiexplorer.8.1.0.nupkg.sha512",
     "D:\\Users\\yuvarani\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "D:\\Users\\yuvarani\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "D:\\Users\\yuvarani\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

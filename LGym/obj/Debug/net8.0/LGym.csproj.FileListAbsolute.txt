@@ -137,3 +137,4 @@ D:\Users\yuvarani\source\repos\LGym\LGym\bin\Debug\net8.0\zh-Hant\Microsoft.Code
 D:\Users\yuvarani\source\repos\LGym\LGym\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Users\yuvarani\source\repos\LGym\LGym\bin\Debug\net8.0\LGym.xml
 D:\Users\yuvarani\source\repos\LGym\LGym\obj\Debug\net8.0\LGym.xml
+D:\Users\yuvarani\source\repos\LGym\LGym\obj\Debug\net8.0\LGym.sourcelink.json

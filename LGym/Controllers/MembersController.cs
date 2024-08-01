@@ -10,7 +10,7 @@ namespace LGym.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class MembersController : ControllerBase
     {
         private readonly ILGymRepository _repository;
@@ -28,18 +28,18 @@ namespace LGym.Controllers
         public async Task<ActionResult<IEnumerable<Member>>> GetMembers()
         {
             //var userClaims = HttpContext.Items["UserClaims"] as IEnumerable<Claim>;
-            var firstNameClaim = User.Claims.FirstOrDefault(c => c.Type == "city")?.Value;
+            //var firstNameClaim = User.Claims.FirstOrDefault(c => c.Type == "city")?.Value;
 
-            if (string.IsNullOrEmpty(firstNameClaim))
-            {
-                return Unauthorized("Invalid token claims.");
-            }
+            //if (string.IsNullOrEmpty(firstNameClaim))
+            //{
+            //    return Unauthorized("Invalid token claims.");
+            //}
 
-            // Check if the firstName matches
-            if (firstNameClaim != "Antwerp")
-            {
-                return Forbid();
-            }
+            //// Check if the firstName matches
+            //if (firstNameClaim != "Antwerp")
+            //{
+            //    return Forbid();
+            //}
             var members = await _repository.GetMembersAsync();
             return Ok(members);
         }
@@ -47,9 +47,13 @@ namespace LGym.Controllers
         /// get members by id
         /// </summary>
         /// <param name="id">The id of the member</param>
+        /// /// <response code="200">Returns the requested member</response>
         /// <returns>A member with id</returns>
         // GET: api/members/5
         [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<Member>> GetMember(int id)
         {
             var member = await _repository.GetMemberAsync(id);

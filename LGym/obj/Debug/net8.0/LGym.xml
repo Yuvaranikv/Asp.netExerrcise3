@@ -15,6 +15,7 @@
             get members by id
             </summary>
             <param name="id">The id of the member</param>
+            /// <response code="200">Returns the requested member</response>
             <returns>A member with id</returns>
         </member>
         <member name="T:LGym.Migrations.initial">
