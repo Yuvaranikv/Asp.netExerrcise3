@@ -138,3 +138,8 @@ D:\Users\yuvarani\source\repos\LGym\LGym\bin\Debug\net8.0\Microsoft.AspNetCore.A
 D:\Users\yuvarani\source\repos\LGym\LGym\bin\Debug\net8.0\LGym.xml
 D:\Users\yuvarani\source\repos\LGym\LGym\obj\Debug\net8.0\LGym.xml
 D:\Users\yuvarani\source\repos\LGym\LGym\obj\Debug\net8.0\LGym.sourcelink.json
+D:\Users\yuvarani\source\repos\LGym\LGym\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+D:\Users\yuvarani\source\repos\LGym\LGym\bin\Debug\net8.0\Asp.Versioning.Http.dll
+D:\Users\yuvarani\source\repos\LGym\LGym\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+D:\Users\yuvarani\source\repos\LGym\LGym\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
+D:\Users\yuvarani\source\repos\LGym\LGym\bin\Debug\net8.0\Newtonsoft.Json.dll

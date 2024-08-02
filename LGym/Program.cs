@@ -1,4 +1,5 @@
 using LGym.DbContexts;
+using LGym.Problems;
 using LGym.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -48,7 +49,7 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 
 app.UseAuthorization();
-
+app.AddErrorHandler();
 app.MapControllers();
 
 app.Run();
